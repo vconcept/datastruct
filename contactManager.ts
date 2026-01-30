@@ -1,6 +1,12 @@
 // 1. The Data Model
 class Contact {
-    constructor(public name: string, public phone: string) {}
+    public name: string;
+    public phone: string;
+
+    constructor(name: string, phone: string) {
+        this.name = name;
+        this.phone = phone;
+    }
 }
 
 // 2. The Node for the Doubly Linked List
